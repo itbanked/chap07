@@ -35,6 +35,34 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- 1. jsp precompiler -->
+		<dependency>
+		    <groupId>org.apache.tomcat.embed</groupId>
+		    <artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
+		<!-- 2. cool-swapping  & livereload-->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		<!-- 3. bootstrap -->
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>bootstrap</artifactId>
+		    <version>3.3.7-1</version>
+		</dependency>
+		<!-- 4. animate -->
+		<dependency>
+		    <groupId>org.webjars</groupId>
+		    <artifactId>animate.css</artifactId>
+		    <version>3.5.2</version>
+		</dependency>
+		<!-- 5. JSTL(JSP Standard Tag Library) -->
+		<dependency>
+		    <groupId>javax.servlet</groupId>
+		    <artifactId>jstl</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
